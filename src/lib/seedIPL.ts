@@ -143,7 +143,7 @@ export const MARQUEE_INDIAN_PLAYERS: IPLPlayerPreset[] = [
     role: PlayerRole.BATSMAN,
     basePrice: 20000000,
     points: 99,
-    photoUrl: "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=400&q=80",
+    photoUrl: "/players/virat-kohli.jpg",
   },
   {
     id: "rohit-sharma",
@@ -152,7 +152,7 @@ export const MARQUEE_INDIAN_PLAYERS: IPLPlayerPreset[] = [
     role: PlayerRole.BATSMAN,
     basePrice: 20000000,
     points: 98,
-    photoUrl: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=400&q=80",
+    photoUrl: "/players/rohit-sharma.jpg",
   },
   {
     id: "ms-dhoni",
@@ -161,7 +161,7 @@ export const MARQUEE_INDIAN_PLAYERS: IPLPlayerPreset[] = [
     role: PlayerRole.WICKET_KEEPER,
     basePrice: 20000000,
     points: 99,
-    photoUrl: "https://images.unsplash.com/photo-1512719994953-eabf50895df7?auto=format&fit=crop&w=400&q=80",
+    photoUrl: "/players/ms-dhoni.jpg",
   },
   {
     id: "jasprit-bumrah",
@@ -170,7 +170,7 @@ export const MARQUEE_INDIAN_PLAYERS: IPLPlayerPreset[] = [
     role: PlayerRole.BOWLER,
     basePrice: 20000000,
     points: 99,
-    photoUrl: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80",
+    photoUrl: "/players/jasprit-bumrah.jpg",
   },
   {
     id: "hardik-pandya",
@@ -179,7 +179,7 @@ export const MARQUEE_INDIAN_PLAYERS: IPLPlayerPreset[] = [
     role: PlayerRole.ALL_ROUNDER,
     basePrice: 20000000,
     points: 96,
-    photoUrl: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=400&q=80",
+    photoUrl: "/players/hardik-pandya.jpg",
   },
   {
     id: "suryakumar-yadav",
@@ -188,7 +188,7 @@ export const MARQUEE_INDIAN_PLAYERS: IPLPlayerPreset[] = [
     role: PlayerRole.BATSMAN,
     basePrice: 20000000,
     points: 97,
-    photoUrl: "https://images.unsplash.com/photo-1517649763962-0c623266010b?auto=format&fit=crop&w=400&q=80",
+    photoUrl: "/players/suryakumar-yadav.jpg",
   },
   {
     id: "ravindra-jadeja",
@@ -197,7 +197,7 @@ export const MARQUEE_INDIAN_PLAYERS: IPLPlayerPreset[] = [
     role: PlayerRole.ALL_ROUNDER,
     basePrice: 20000000,
     points: 96,
-    photoUrl: "https://images.unsplash.com/photo-1569517282132-25d22f4573e6?auto=format&fit=crop&w=400&q=80",
+    photoUrl: "/players/ravindra-jadeja.jpg",
   },
   {
     id: "rishabh-pant",
@@ -206,7 +206,7 @@ export const MARQUEE_INDIAN_PLAYERS: IPLPlayerPreset[] = [
     role: PlayerRole.WICKET_KEEPER,
     basePrice: 20000000,
     points: 95,
-    photoUrl: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=400&q=80",
+    photoUrl: "/players/rishabh-pant.jpg",
   },
   {
     id: "shubman-gill",
@@ -215,7 +215,7 @@ export const MARQUEE_INDIAN_PLAYERS: IPLPlayerPreset[] = [
     role: PlayerRole.BATSMAN,
     basePrice: 20000000,
     points: 96,
-    photoUrl: "https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=400&q=80",
+    photoUrl: "/players/shubman-gill.jpg",
   },
   {
     id: "kl-rahul",
@@ -224,7 +224,7 @@ export const MARQUEE_INDIAN_PLAYERS: IPLPlayerPreset[] = [
     role: PlayerRole.WICKET_KEEPER,
     basePrice: 20000000,
     points: 95,
-    photoUrl: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=400&q=80",
+    photoUrl: "/players/kl-rahul.jpg",
   },
   {
     id: "shreyas-iyer",
@@ -233,7 +233,7 @@ export const MARQUEE_INDIAN_PLAYERS: IPLPlayerPreset[] = [
     role: PlayerRole.BATSMAN,
     basePrice: 20000000,
     points: 94,
-    photoUrl: "https://images.unsplash.com/photo-1519766304817-4f37bda74a29?auto=format&fit=crop&w=400&q=80",
+    photoUrl: "/players/shreyas-iyer.jpg",
   },
   {
     id: "sanju-samson",
@@ -242,6 +242,6 @@ export const MARQUEE_INDIAN_PLAYERS: IPLPlayerPreset[] = [
     role: PlayerRole.WICKET_KEEPER,
     basePrice: 20000000,
     points: 94,
-    photoUrl: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=400&q=80",
+    photoUrl: "/players/sanju-samson.jpg",
   },
 ];

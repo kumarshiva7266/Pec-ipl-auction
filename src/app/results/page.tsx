@@ -29,11 +29,11 @@ export default function ResultsPage() {
   // Calculations
   const soldPlayers = players.filter(p => p.status === PlayerStatus.SOLD);
   const unsoldPlayers = players.filter(p => p.status === PlayerStatus.UNSOLD);
-  
+
   const highestBidPlayer = soldPlayers.reduce((max, p) => (p.soldPrice || 0) > (max.soldPrice || 0) ? p : max, soldPlayers[0] || null);
   const highestSpendingTeam = teams.reduce((max, t) => t.totalSpent > max.totalSpent ? t : max, teams[0] || null);
   const highestPointsTeam = teams.reduce((max, t) => t.totalPoints > max.totalPoints ? t : max, teams[0] || null);
-  
+
   const totalMoneySpent = teams.reduce((sum, t) => sum + t.totalSpent, 0);
   const averageSalePrice = soldPlayers.length > 0 ? (totalMoneySpent / soldPlayers.length).toFixed(2) : 0;
 

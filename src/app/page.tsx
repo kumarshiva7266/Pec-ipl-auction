@@ -562,16 +562,13 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="pt-2.5 border-t border-white/10 flex justify-between items-center relative z-10">
-                    <div>
-                      <span className="text-[9px] text-slate-400 font-mono block uppercase font-semibold">BASE PRICE</span>
-                      <span className="text-xs sm:text-sm font-black text-white font-mono text-amber-300">{formatCurrency(player.basePrice)}</span>
-                    </div>
+                  <div className="pt-2.5 border-t border-white/10 flex justify-center items-center relative z-10">
                     <Link
                       href="/auction"
-                      className="px-3.5 py-1.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black rounded-xl text-xs uppercase tracking-wider transition-all shadow-md group-hover:scale-105"
+                      className="w-full py-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black rounded-xl text-xs uppercase tracking-wider transition-all shadow-md group-hover:scale-[1.02] flex items-center justify-center gap-1.5"
                     >
-                      Bid Now
+                      <span>Bid Now</span>
+                      <ArrowRight size={13} />
                     </Link>
                   </div>
                 </div>
